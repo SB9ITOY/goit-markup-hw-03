@@ -179,6 +179,12 @@ address{
     letter-spacing: 0.06em;
     color: #FFFFFF;  
 }
+.main{
+    margin: 94px 215px;
+}
+.button-menu-p{
+    margin-bottom: 34px;
+}
 .h3-Benefits {
     font-weight: 700;
     font-size: 14px;
