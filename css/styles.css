@@ -245,6 +245,7 @@ display: flex;
 /* ----------------team block------------------ */
 .team-block {
     background-color: var(--button-color);
+    padding: 186px 215px 94px 215px;
     width: 1600px;
     height: 648px;
 }
@@ -252,23 +253,21 @@ display: flex;
     width: 264px;
     height: 42px;
     margin: auto;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     
 }
+
 .tema-list{
+display: flex;
 
 
-    margin: auto;
-    padding: 50px 0 94px 0;
-    display: flex;
 }
-.team-list .item+.item{
-    margin-left: 30px;
+.team-list .item:last-child{
+    margin-right: 30px;
 
 }
 .name-team{
