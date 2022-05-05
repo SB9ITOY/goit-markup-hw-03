@@ -10,6 +10,7 @@ body{
     background-color: #fff;
     font-size: 14px;
     letter-spacing: 0.03em;
+    width: 1600px;
 }
 /* ***************** */
 *,
@@ -42,6 +43,7 @@ address{
 /* --------------------------Button--------------------------------- */
 .site-nav .header-link{
     color: var(--primary-text-color);
+    display: block;
 }
 .site-nav .header-link:hover,
 .site-nav .header-link:focus{
@@ -131,15 +133,20 @@ address{
 /* all nav */
 .nav-flex{
     display: flex;
-    border: 1px solid #000000;
     align-items: center;
+    width: 1600px;
+    border: 1px solid #000000;
 }
 /* ----------site nav---------- */
 .site-nav {
     display: flex;
     margin-left: 93px;
 }
+.container{
+    padding-left: 215px;
+    padding-right: 215px;
 
+}
 .site-nav .item+.item {
     margin-left: 50px;
 }
@@ -159,10 +166,12 @@ address{
 .auth-nav .item + .item{
     margin-left: 50px;
 }
+/* ----------baner---------- */
 .hero{
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
+    
 }
 .menu{
     width: 1170px;
