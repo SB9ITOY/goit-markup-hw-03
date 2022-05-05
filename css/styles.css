@@ -108,16 +108,7 @@ address{
     letter-spacing: 0.03em;
     color: #000000;
 }
-.studio-footer{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,
-    19;
-    letter-spacing: 0.03em;
-    color: #fff;
-}
+
 /* all nav */
 .nav-flex{
     display: flex;
@@ -178,12 +169,25 @@ address{
     color: #fff;
     border: 1px solid var(--accent-color);
     text-align: center;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    padding-left: 32px;
 }
 
 .services-button:hover,
 .services-button:focus {
     background-color: #188CE8;
     color: #fff;
+}
+.services-button {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
 }
 /* ----------section work---------- */
 .menu{
@@ -192,9 +196,8 @@ address{
 .work-exp{
 display: flex;
 }
-.work-exp .item+.item{
+.work-exp .item + .item{
     margin-left: 30px;
-    margin-top: 50px;
 }
 .h3-Benefits {
     font-weight: 700;
@@ -218,40 +221,55 @@ display: flex;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    text-align: center;
+    width: 376px;
+    height: 42px;
+    margin: 94px 397px 50px 397px;
 }
-.our-work{
-    display: flex;
-}
-.our-work .item+.item{
-    margin-left: 30px;
-}
-.team-block{
-    background-color: var(--button-color);
-    width: 1600px;
-    height: 648px;
-}
-.services-button{
 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+.our-work{
+    margin: auto;
+    padding: 0;
     display: flex;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;  
 }
+.our-work .item + .item{
+    margin-left: 30px;
+    
+}
+
 .main{
     margin: 94px 215px;
 }
 .button-menu-p{
     margin-bottom: 34px;
 }
+/* ----------------team block------------------ */
+.team-block {
+    background-color: var(--button-color);
+    width: 1600px;
+    height: 648px;
+}
 .team{
-    font-weight: 700;
+    width: 264px;
+    height: 42px;
+    margin: auto;
+    padding-top: 94px;
+    padding-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    
+}
+.tema-list{
+
+
+    margin: auto;
+    padding: 50px 0 94px 0;
+    display: flex;
+}
+.team-list .item+.item{
+    margin-left: 30px;
+
 }
 .name-team{
     font-weight: 500;
@@ -266,6 +284,26 @@ display: flex;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+/* -----------footer---------- */
+
+.web-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.studio-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,
+        19;
+    letter-spacing: 0.03em;
+    color: #fff;}
 .maps{
     font-weight: 400;
     font-size: 14px;
@@ -288,6 +326,12 @@ display: flex;
 .footer-number-link:focus {
     color: var(--accent-color);
 }
+.footer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+/* - */
 .job{
     font-weight: 700;
     font-size: 18px;
@@ -300,9 +344,6 @@ display: flex;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
- }
- .footer{
-     background-color: #2F303A;
  }
 
         
