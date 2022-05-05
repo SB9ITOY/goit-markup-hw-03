@@ -21,9 +21,6 @@ body{
 address{
     font-style: normal;
 }
-.container{
-    width: 1200px;
-}
 .list{
     list-style: none;
 }
@@ -99,12 +96,9 @@ address{
 
 }
 /* ------------------------------------------------------index main------------------------------------------------- */
-.header {
-    width:  1600px;
-    height: 80px;
-    border: #000000;
-    background-color: #ffffff;
-}
+
+
+
 .web {
     font-family: 'Raleway';
     font-style: normal;
@@ -114,6 +108,7 @@ address{
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
+
 .studio{
     font-family: 'Raleway';
     font-style: normal;
@@ -133,12 +128,36 @@ address{
     letter-spacing: 0.03em;
     color: #fff;
 }
+/* all nav */
+.nav-flex{
+    display: flex;
+    border: 1px solid #000000;
+    align-items: center;
+}
+/* ----------site nav---------- */
 .site-nav {
+    display: flex;
+    margin-left: 93px;
+}
 
+.site-nav .item+.item {
+    margin-left: 50px;
+}
+.site-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+/* --------auth nav--------- */
+.auth-nav{
+    display: flex;
+    margin-left: auto;
+}
+.auth-nav .item + .item{
+    margin-left: 50px;
 }
 .hero{
     background-color: #2F303A;
