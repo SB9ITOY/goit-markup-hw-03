@@ -64,18 +64,6 @@ address{
 .header-number-link:focus{
     color: var(--accent-color);
 }
-.services-button{
-    margin: 0 700px 200px 700px;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--accent-color);
-    color: #fff;
-    border: 1px solid var(--accent-color);
-}
-.services-button:hover,
-.services-button:focus{
-    background-color: #188CE8;
-    color: #fff;
-}
 .button-menu-section{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -171,32 +159,77 @@ address{
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
-    
 }
-.menu{
-    width: 1170px;
-    height: 101px;
-    margin: 94px 215px;
-
-}
-.our-job{
-    width: 1170px;
-    height: 386px;
-    margin: 94px 215px;
-}
-.team-block{
-    background-color: var(--button-color);
-    width: 1600px;
-    height: 648px;
-}
-.decision{
-    padding: 200px 452px 30px 454px;
+.decision {
+    text-align: center;
+    padding: 200px 452px 30px 452px;
+    margin: 0 0 0 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
+}
+.services-button {
+    margin: 0 700px 200px 700px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--accent-color);
+    color: #fff;
+    border: 1px solid var(--accent-color);
+    text-align: center;
+}
+
+.services-button:hover,
+.services-button:focus {
+    background-color: #188CE8;
+    color: #fff;
+}
+/* ----------section work---------- */
+.menu{
+  margin: 94px 215px;
+}
+.work-exp{
+display: flex;
+}
+.work-exp .item+.item{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.h3-Benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.p-Benefits {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+/* -----------our-job-------------- */
+.our-job{
+    margin: 94px 215px;
+}
+.work {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-align: center;
+}
+.our-work{
+    display: flex;
+}
+.our-work .item+.item{
+    margin-left: 30px;
+}
+.team-block{
+    background-color: var(--button-color);
+    width: 1600px;
+    height: 648px;
 }
 .services-button{
 
@@ -212,25 +245,6 @@ address{
 }
 .button-menu-p{
     margin-bottom: 34px;
-}
-.h3-Benefits {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.p-Benefits{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-     color: var(--title-text-color);
-}
-.work{
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
 }
 .team{
     font-weight: 700;
