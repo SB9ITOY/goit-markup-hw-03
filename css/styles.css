@@ -12,6 +12,11 @@ body{
     letter-spacing: 0.03em;
     width: 1600px;
 }
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 /* ***************** */
 *,
 *::after,
@@ -64,27 +69,7 @@ address{
 .header-number-link:focus{
     color: var(--accent-color);
 }
-.button-menu-section{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    background-color: var(--button-color);
-    color: var(--primary-text-color);
-    border: 1px solid var(--button-color);
-}
-.button-menu-section:focus{
-    background-color: var(--button-color);
-    color: var(--primary-text-color);
-    border: 1px solid #000000;
-}
-.button-menu-section:hover{
-    background-color: var(--accent-color);
-    color: #fff;
-    border: 1px solid var(--accent-color);
 
-}
 /* ------------------------------------------------------index main------------------------------------------------- */
 
 
@@ -330,6 +315,66 @@ display: flex;
     width: 1600px;
     height: 252px;
 }
+/* ----------------------portfolio-------------- */
+
+/* button--------------- */
+.button-section{
+    padding-top: 94px;
+    padding-bottom: 34px;
+}
+.button-section .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-section .filter-button{
+    margin-right: 8px;
+}
+
+.filter-button {
+    padding: 6px 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: var(--button-color);
+    color: var(--primary-text-color);
+    border: 1px solid var(--button-color);
+}
+
+.filter-button:focus {
+    background-color: var(--button-color);
+    color: var(--primary-text-color);
+    border: 1px solid #000000;
+}
+
+.filter-button:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+    border: 1px solid var(--accent-color);
+
+}
+/* --------job-list---------- */
+.job-container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.job-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.job-item{
+    width: 370px;
+    margin-right: 30px;
+}
+.job-item:nth-child(3n) {
+    margin-right: 0px;
+}
+
 /* - */
 .job{
     font-weight: 700;
