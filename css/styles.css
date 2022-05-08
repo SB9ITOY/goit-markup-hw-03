@@ -124,6 +124,7 @@ address{
 .auth-nav{
     display: flex;
     align-items: center;
+    margin-left: 331px;
 }
 .auth-nav .item+.item {
     margin-left: 50px;
