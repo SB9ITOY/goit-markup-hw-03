@@ -10,7 +10,6 @@ body{
     background-color: #fff;
     font-size: 14px;
     letter-spacing: 0.03em;
-    width: 1600px;
 }
 .container {
     width: 1200px;
@@ -29,6 +28,8 @@ address{
 }
 .list{
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 .link{
     text-decoration: none;
@@ -75,6 +76,8 @@ address{
 
 
 .web {
+    padding-top: 24px;
+    padding-bottom: 25px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -85,6 +88,8 @@ address{
 }
 
 .studio{
+    padding-top: 24px;
+    padding-bottom: 25px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -95,33 +100,25 @@ address{
 }
 
 /* all nav */
+
 .nav-flex{
     display: flex;
     align-items: center;
-    width: 1600px;
     border: 1px solid #000000;
 }
 /* ----------site nav---------- */
 .site-nav {
     display: flex;
     margin-left: 93px;
-}
-.container{
-    padding-left: 215px;
-    padding-right: 215px;
-
-}
-.site-nav .item+.item {
-    margin-left: 50px;
-}
-.site-nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.site-nav .item+.item {
+    margin-left: 50px;
+}
+
 /* --------auth nav--------- */
 .auth-nav{
     display: flex;
