@@ -129,12 +129,10 @@ address{
 /* ----------baner---------- */
 .hero{
     background-color: #2F303A;
-    width: 1600px;
     height: 600px;
 }
 .decision {
     text-align: center;
-    padding: 200px 452px 30px 452px;
     margin: 0 0 0 0;
     font-weight: 900;
     font-size: 44px;
