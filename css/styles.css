@@ -100,11 +100,10 @@ address{
 }
 
 /* all nav */
-
 .nav-flex{
     display: flex;
     align-items: center;
-    border: 1px solid #000000;
+
 }
 /* ----------site nav---------- */
 .site-nav {
@@ -122,9 +121,9 @@ address{
 /* --------auth nav--------- */
 .auth-nav{
     display: flex;
-    margin-left: auto;
+    align-items: center;
 }
-.auth-nav .item + .item{
+.auth-nav .item+.item {
     margin-left: 50px;
 }
 /* ----------baner---------- */
